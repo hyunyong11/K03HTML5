@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemberRegist.html</title>
+</head>
+<body>
+    <table style=" width: 1000; height: 1000; border-spacing: 1px; background-color: black;">
+        <tr>
+            <td style="padding: 10px; background-color: #A3AFC9;">&nbsp;<strong>* 아이디</strong></td>
+            <td style="background-color: white; ; font-size: x-small;">
+                &nbsp;&nbsp;<input type="text" size="15" minlength="4" maxlength="15"> <input type="submit" value="중복확인" style="background-color: #212121; color: white;">
+                &nbsp;&nbsp;+4~15자, 첫 영문자, 영문자와 숫자조합&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; background-color: #A3AFC9;">&nbsp;<strong>* 비밀번호</strong></td>
+            <td style="background-color: white;">
+                &nbsp;&nbsp;<input type="text" size="10" minlength="4" maxlength="15">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; background-color: #A3AFC9;">&nbsp;<strong>* 비밀번호 확인</strong></td>
+            <td style="background-color: white; font-size: x-small;">
+                &nbsp;&nbsp;&nbsp;<input type="text" size="10" minlength="4" maxlength="15"> &nbsp;&nbsp;(확인을 위해 다시한번 입력해주세요.)
+            </td>
+        </tr>
+        <tr >
+            <td style="padding: 10px; background-color: #A3AFC9;">&nbsp;<strong>* 이름</strong></td>
+            <td style="background-color: white;">
+                &nbsp;&nbsp;<input type="text" size="15" minlength="4" maxlength="15">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; background-color: #A3AFC9;">&nbsp;<strong>생년월일</strong></td>
+            <td style="background-color: white; font-size: small;">
+                &nbsp;&nbsp;<input type="radio" checked> 남자 &nbsp;&nbsp;<input type="radio"> 여자
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" size="4" maxlength="4">년&nbsp;&nbsp;
+                <input type="text" size="2" maxlength="2">월&nbsp;&nbsp;<input type="text" size="2" maxlength="2">일
+                &nbsp;&nbsp;&nbsp;(예, 2000년01월31일)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="2" style="padding: 10px; background-color: #A3AFC9;">&nbsp;<strong>* 이메일</strong></td>
+            <td style="font-size: small; background-color: white;">
+                &nbsp;&nbsp;<input type="text" size="8">&nbsp;@&nbsp;<input type="text" size="12" value="naver.com">&nbsp;
+                <select name="email">
+                    <option value="na" selected>naver.com</option>
+                    <option value="da">daum.net</option>
+                    <option value="go">google.com</option>
+                    <option value="nat">nate.com</option>
+                </select>
+                &nbsp;<input type="radio" checked> 수신허용 &nbsp;&nbsp;<input type="radio"> 수신불가
+            </td>
+        </tr>
+        <tr>
+            <!-- /<td></td> -->
+            <td style="font-size: x-small; background-color: white;">
+                &nbsp;&nbsp;※&nbsp;hanmail.net은&nbsp;메일&nbsp;수신이&nbsp;어려울&nbsp;수&nbsp;있으니
+                &nbsp;가급적&nbsp;다른&nbsp;메일을&nbsp;이용하시기&nbsp;바랍니다.
+            </td>
+        </tr>
+        <tr>
+            <td rowspan="3" style="padding: 10px; background-color: #A3AFC9;">&nbsp;&nbsp;<strong>주소</strong></td>
+            <td style="font-size: small; background-color: white;">
+                &nbsp;&nbsp;<input type="submit" value="주소찾기" style="background-color: #212121; color: white;">
+                &nbsp;<input type="text" size="11">&nbsp;&nbsp;(우편번호)
+            </td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td style="font-size: small; background-color: white;">
+                &nbsp; <input type="text" size="70">
+            </td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <td style="font-size: small; background-color: white;">
+                &nbsp; <input type="text" size="45">&nbsp;&nbsp;&nbsp;&nbsp;+&nbsp;나머지&nbsp;주소
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; background-color:#A3AFC9;">&nbsp;&nbsp;<strong>전화번호</strong></td>
+            <td style="background-color: white; font-size: x-small;">
+                &nbsp;&nbsp;<input type="text" size="1">&nbsp;-&nbsp;<input type="text" size="3">&nbsp;-&nbsp;<input type="text" size="3">
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; background-color: #A3AFC9;">&nbsp;<strong>* 휴대전화</strong></td>
+            <td style="background-color: white; font-size: x-small;">
+                &nbsp;&nbsp;<input type="text" size="1">&nbsp;-&nbsp;<input type="text" size="3">&nbsp;-&nbsp;<input type="text" size="3">
+                &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" >SMS 수신허용 &nbsp;&nbsp;<input type="radio"checked>SMS 수신불가
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; background-color: #A3AFC9;">&nbsp;<strong>* 관심분야</strong></td>
+            <td style="background-color: white;">
+                &nbsp;
+                <select name="hobby">
+                    <option selected>;;관심분야&nbsp;선택&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;;</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 10px; background-color: #A3AFC9;">&nbsp;<strong>* 가입경로</strong></td>
+            <td style="background-color: white;">
+                &nbsp;
+                <select>
+                    <option selected>;;가입경로&nbsp;선택&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;;</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="&nbsp;&nbsp;&nbsp;등록하기&nbsp;&nbsp;&nbsp;" style="background-color: red; color: white;">
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit" value="&nbsp;&nbsp;&nbsp;새로쓰기&nbsp;&nbsp;&nbsp;" style="background-color: lightgray; color: white;">
+</body>
+
+</html>
